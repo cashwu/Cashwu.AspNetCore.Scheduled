@@ -2,6 +2,16 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <DebugType>full</DebugType>
+        <PackageId>Cashwu.AspNetCore.Scheduled</PackageId>
+        <PackageProjectUrl>https://github.com/cashwu/Cashwu.AspNetCore.Scheduled</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageDescription>Asp.Net Core hosting scheduled</PackageDescription>
+        <Version>1.0.0</Version>
+        <Company>cashwu</Company>
+        <AssemblyName>Cashwu.AspNetCore.Scheduled</AssemblyName>
+        <RootNamespace>Cashwu.AspNetCore.Scheduled</RootNamespace>
+        <Authors>cashwu</Authors>
     </PropertyGroup>
 
     <ItemGroup>
