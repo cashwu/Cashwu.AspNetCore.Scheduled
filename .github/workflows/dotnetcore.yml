@@ -16,7 +16,7 @@ jobs:
     - name: build
       run: dotnet build
     - name: dotnet pack
-      run: dotnet pack ./Cashwu.AspNetCore.Scheduled/Cashwu.AspNetCore.Scheduled.csproj -c Release -o ../release
+      run: dotnet pack ./Cashwu.AspNetCore.Scheduled/Cashwu.AspNetCore.Scheduled.csproj -c Release -o ./release
     - name: nuget publish
       if: github.ref == 'refs/heads/master'
       #continue-on-error: true
