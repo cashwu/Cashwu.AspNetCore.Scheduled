@@ -20,5 +20,6 @@ jobs:
     - name: nuget publish
       if: github.ref == 'refs/heads/master'
       continue-on-error: true
+      working-directory: /
       run: |
         dotnet nuget push ./release/*.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
